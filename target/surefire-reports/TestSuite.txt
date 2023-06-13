@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.11 sec <<< FAILURE!
+creatUser(tests.Testing3)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: Veryfing Element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at tests.Testing3.creatUser(Testing3.java:14)
+
